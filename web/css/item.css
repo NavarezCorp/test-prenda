@@ -1,0 +1,58 @@
+.create-item-table tbody tr th {
+    text-align: right;
+    width: 200px;
+}
+
+.item-view tbody tr th,
+.type-view tbody tr th,
+.category-view tbody tr th,
+.province-view tbody tr th,
+.image-view tbody tr th,
+.auction-schedule-view tbody tr th {
+    text-align: right;
+    width: 200px;
+}
+
+.help-block {
+    color: #a94442;
+}
+
+.upload_photo_container{
+    float: left;
+    border: 3px dashed #CCCCCC;
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+.upload_photo_container div.label_container{
+    float: left;
+    text-align: center;
+    height: 90px;
+    position: absolute;
+    font-size: 13px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.upload_photo_container div.label_container div.inner{
+    color: #000000;
+    margin-top: 13px;
+}
+
+.upload_photo_container div.label_container div.inner span.plus{
+    font-weight: bold;
+    width: 100px;
+    font-size: 40px;
+}
+
+.upload_photo_container input{
+    cursor: pointer;
+    float: left;
+    height: 90px;
+    opacity: 0;
+    position: relative;
+    top: -87px;
+    width: 90px;
+    left: -3px;
+}
