@@ -24,7 +24,6 @@ class m141003_051433_create_item_table extends Migration
         $this->createIndex('auction_schedule_id', 'item', 'auction_schedule_id');
         $this->createIndex('category_id', 'item', 'category_id');
         $this->createIndex('type_id', 'item', 'type_id');
-        $this->createIndex('image_id', 'item', 'image_id');
     }
 
     public function down()
